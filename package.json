@@ -5,8 +5,9 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "echo \"This is a Django project. Start with: python manage.py runserver\"",
-    "development": "echo \"This is a Django project. Start with: python manage.py runserver\""
+    "start": "python manage.py runserver 0.0.0.0:3000",
+    "dev": "python manage.py runserver 0.0.0.0:3000",
+    "development": "python manage.py runserver 0.0.0.0:3000"
   },
   "repository": {
     "type": "git",
