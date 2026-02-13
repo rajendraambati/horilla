@@ -5,8 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "echo \"Django development server started separately\"",
-    "development": "echo \"Laravel Mix is optional for this Django project\""
+    "dev": "echo \"This is a Django project. Start with: python manage.py runserver\"",
+    "development": "echo \"This is a Django project. Start with: python manage.py runserver\""
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,7 @@
     "url": "https://github.com/ArjunCybro/OpenHRMS-Dashboard/issues"
   },
   "homepage": "https://github.com/ArjunCybro/OpenHRMS-Dashboard#readme",
-  "devDependencies": {
-    "laravel-mix": "^6.0.49"
-  },
+  "devDependencies": {},
   "dependencies": {
     "alpinejs": "^3.10.5",
     "ionicons": "^7.1.0",
