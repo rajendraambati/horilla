@@ -5,9 +5,9 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "python manage.py runserver 0.0.0.0:3000",
-    "dev": "python manage.py runserver 0.0.0.0:3000",
-    "development": "python manage.py runserver 0.0.0.0:3000"
+    "start": "node server.js",
+    "dev": "node server.js",
+    "development": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
   "devDependencies": {},
   "dependencies": {
     "alpinejs": "^3.10.5",
+    "express": "^4.18.2",
     "ionicons": "^7.1.0",
     "jquery": "^3.6.3",
     "jquery-ui": "^1.13.2",
